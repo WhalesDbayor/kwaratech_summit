@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     let currentIndex = 0;
     const cardWidth = 340; // card width + margin
-    const maxIndex = speakerCards.length - 1; // Show 4 cards at once
+    const maxIndex = speakerCards.length - 1; // Show X number of card at once
     
     prevBtn.addEventListener('click', function() {
         if (currentIndex > 0) {
@@ -40,4 +40,8 @@ document.addEventListener('DOMContentLoaded', function() {
             navbar.style.boxShadow = 'none';
         }
     });
+
+    // window.addEventListener('click', function () {
+        
+    // });
 });
