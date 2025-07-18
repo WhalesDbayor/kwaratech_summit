@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const speakerCards = document.querySelectorAll('.speaker-card');
     
     let currentIndex = 0;
+    // const cardWidth = 340; // card width + margin
     const cardWidth = 340; // card width + margin
     const maxIndex = speakerCards.length - 1; // Show X number of card at once
     
@@ -22,7 +23,11 @@ document.addEventListener('DOMContentLoaded', function() {
             updateCarousel();
         }
     });
-    
+
+    // function updateCarouselPrev() {
+    //     carousel.style.transform = `translateX(-100%)`;
+    // }
+
     function updateCarousel() {
         carousel.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
     }
