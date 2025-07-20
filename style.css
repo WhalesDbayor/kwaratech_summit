@@ -185,19 +185,6 @@ body {
 }
 
 /* Hero Section */
-.hepro {
-    background: linear-gradient(rgba(26, 115, 232, 0.85), rgba(103, 58, 183, 0.85)), url('https://assets-persist.lovart.ai/agent_images/a3d750e1-ed3d-4dfd-adf5-964bb2e8290d.png');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
-    padding: 0 20px;
-    margin-top: 80px;
-}
 
 /* New Styling */
 .hero {
