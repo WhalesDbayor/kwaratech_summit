@@ -86,6 +86,13 @@ body {
     display: none;
 }
 
+.register {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 @media (max-width: 1200px) {
     html {
         font-size: 75%;
@@ -131,6 +138,12 @@ body {
         font-size: 2rem;
         margin: 3rem 0;
     }
+
+    .register {
+        flex-direction: column;
+        row-gap: 2.5rem;
+    }
+
 }
 /* End of New */
 
@@ -269,7 +282,7 @@ body {
 }
 
 .cta-button {
-    background-color: #00bcd4;
+    background-color: #1a73e8;
     color: white;
     padding: 15px 30px;
     border-radius: 50px;
@@ -455,6 +468,10 @@ body {
     background: linear-gradient(135deg, #f8f9fa 0%, #e8eaf6 100%);
 }
 
+.innovators {
+    background: linear-gradient(45deg, #e8eaf6 0%, #f8f9fa 100%);
+}
+
 .school-owners-container {
     display: flex;
     max-width: 1400px;
@@ -462,9 +479,26 @@ body {
     align-items: center;
 }
 
+.innovators-container {
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
 .benefits {
     flex: 1;
     padding-right: 50px;
+}
+
+.inn-benefits {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 100px;
+    /* float: left; */
 }
 
 .benefits-title {
